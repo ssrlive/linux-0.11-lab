@@ -58,12 +58,12 @@ If you want to learn the latest [Linux Kernel](http://www.kernel.org), please tr
 * The Linux distributions: debian and ubuntu (>= 14.04) are recommended
 * Install basic tools
 
-        $ sudo apt-get install vim cscope exuberant-ctags build-essential qemu
+        $ sudo apt-get install vim cscope exuberant-ctags build-essential qemu qemu-system-x86 -y
 
 * Optional
 
-    $ sudo apt-get install bochs vgabios bochsbios bochs-doc bochs-x libltdl7 bochs-sdl bochs-term
-    $ sudo apt-get install graphviz cflow
+    $ sudo apt-get install bochs vgabios bochsbios bochs-doc bochs-x libltdl7 bochs-sdl bochs-term -y
+    $ sudo apt-get install graphviz cflow -y
 
 **Note**: The [docker install method](#build-on-other-systems-include-mac-os-x-windows) is recommended in lastest Ubuntu distibutions.
 
@@ -95,6 +95,7 @@ If you want to learn the latest [Linux Kernel](http://www.kernel.org), please tr
     (gdb) b _start
     (gdb) si
 
+![image](https://user-images.githubusercontent.com/30760636/190119318-2f57b29b-37f0-4471-beea-b8a64d1dde33.png)
 
 Optional
 
