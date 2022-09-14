@@ -57,14 +57,14 @@ If you want to learn the latest [Linux Kernel](http://www.kernel.org), please tr
 
 * The Linux distributions: debian and ubuntu (>= 14.04) are recommended
 * Install basic tools
-
-        $ sudo apt-get install vim cscope exuberant-ctags build-essential qemu qemu-system-x86 -y
-
+```
+    $ sudo apt-get install vim cscope exuberant-ctags build-essential qemu qemu-system-x86 -y
+```
 * Optional
-
+```
     $ sudo apt-get install bochs vgabios bochsbios bochs-doc bochs-x libltdl7 bochs-sdl bochs-term -y
     $ sudo apt-get install graphviz cflow -y
-
+```
 **Note**: The [docker install method](#build-on-other-systems-include-mac-os-x-windows) is recommended in lastest Ubuntu distibutions.
 
 ### Hack Linux 0.11 on Linux
